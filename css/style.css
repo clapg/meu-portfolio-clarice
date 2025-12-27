@@ -1,0 +1,226 @@
+/*
+******* LIMPAR FORMATAÇÕES *******
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    line-height: 2.5;
+    background-color: #e6e6e6;
+}
+
+p {
+    margin-bottom: 40px; /* Aumenta espaço entre parágrafos */
+    text-align: justify;
+    line-height: 1.8;
+}
+
+h2 {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+
+/*
+******* HEADER *******
+*/
+#header{
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+#titulo, #menu{
+    padding: 10px;
+}
+
+#header a:link {
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#header a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#header a:hover {
+    background-color: #575757;
+    text-decoration: none;
+}
+
+#menu{
+    text-align: center;
+    color: #fff;
+}
+
+/*
+******* HOME *******
+*/
+#content{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.home {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    background: #fff;
+}
+
+.home-texto{
+    padding: 0px;
+    text-align: justify;
+    line-height: 1.8;  
+}
+
+.home-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.home-links a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+.home-links a:hover {
+    text-decoration: underline;
+}
+
+/*
+******* SOBRE MIM *******
+*/
+.sobre {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    background: #fff;
+}
+
+.sobre-container {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.sobre-imagem {
+    flex: 0 0 250px;
+}
+
+.sobre-imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sobre-texto {
+    flex: 1;
+}
+
+/*
+******* FORMAÇÃO ACADÊMICA *******
+*/
+.formacao {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    background: #fff;
+}
+
+/*
+******* CONTATO *******
+*/
+.portfolio {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    background: #fff;
+}
+.portfolio-imagem img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+/*
+******* CONTATO *******
+*/
+.contato {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    background: #fff;
+}
+
+.contato-formulario form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.contato-formulario label {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.contato-formulario input,
+.contato-formulario textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.contato-formulario button {
+    padding: 11px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contato-formulario button:hover {
+    background-color: #555;
+}
+
+.portfolio {
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    background: #fff;
+}
+
+a.botao{
+    background-color: darkslategray;
+    color: white;
+    padding: 1px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease-in-out;
+}
+a.botao:hover{
+    background-color: rgb(38, 131, 100);
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
